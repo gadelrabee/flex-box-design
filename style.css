@@ -32,8 +32,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .card:hover{
@@ -42,8 +41,23 @@
     box-shadow: 0px 0px 10px 6px grey;
 }
 
-.card1{
-    background-image: url('images\Screenshot 2024-10-28 105238.jpg') no-repeat center center;
+.card-1 {
+    background-image: url('/images/background_image_1.jpg');
+    background-size: cover;
+}
+
+.card-2 {
+    background-image: url('/images/Screenshot 2024-10-28 105354.png');
+    background-size: cover;
+}
+
+.card-3 {
+    background-image: url('images/Screenshot 2024-10-28 105424.png');
+    background-size: cover;
+}
+
+.card-4 {
+    background-image: url('images/Screenshot 2024-10-28 105517.png');
     background-size: cover;
 }
 
@@ -55,8 +69,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: rgb(0, 0, 0, 0.5);
+}
 
+
+.sub-box2{
+    width: 25rem;
+    height: 5rem;
+    margin-left: 0px;
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+.sub-box3{
+    width: 25rem;
+    height: 5rem;
+    margin-left: 0px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.sub-box4{
+    width: 25rem;
+    height: 5rem;
+    margin-left: 0px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black 0.5%;
 }
 
 .circle{
@@ -72,47 +120,16 @@
 	font-weight: 400;
 	color: white;
 }
-.sub-box2{
-    width: 25rem;
-    height: 5rem;
-    margin-left: 0px;
-    color:red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 255, 0.5);
 
-}
 .c1{
     background: linear-gradient(to top, red, orange, white);
 	box-shadow: 0px 0px 10px 2px red;
 }
 
-.sub-box3{
-    width: 25rem;
-    height: 5rem;
-    margin-left: 0px;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: bisque;
-}
 .c2{
     background: linear-gradient(to top, rgb(119, 31, 181), blue, white);
     box-shadow: 0px 0px 10px 2px rgb(119, 31, 181);
 }
-.sub-box4{
-    width: 25rem;
-    height: 5rem;
-    margin-left: 0px;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: bisque;
-}
-
 
 .c3{
     background: linear-gradient(to top, rgb(4, 87, 4), green, white);
